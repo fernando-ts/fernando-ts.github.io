@@ -1,0 +1,49 @@
+/*
+**Navigation bar
+*/
+.my-navbar{
+    background: #2C3E50;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.me-info{
+    color: #ffff; 
+}
+ 
+
+/* 
+**Header section below 
+*/
+
+header{
+    padding: calc(6rem + 106px);
+    width: 100%;
+    height: 700px;
+    background: #6fb5bc;
+}
+
+
+/* To change the size of my icons */
+ion-icon {
+    font-size: 115px;
+}
+
+/* hr.star-light{
+margin: 25px auto 30px;
+padding: 0;
+max-width: 250px;
+border: 0;
+border-top: solid 5px;
+text-align: center;
+overflow: visible;
+} */
+
+
+/* 
+**Porfolio Section 
+*/
+
+.my-portfolio{
+    padding: 100px 0 100px 0;
+}
