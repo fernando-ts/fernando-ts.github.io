@@ -1,32 +1,57 @@
+
 /*
-**Navigation bar
+** - Navigation bar -
 */
+
 .my-navbar{
-    background: #2C3E50;
+    background: #292a46;
     display: flex;
     flex-wrap: wrap;
 }
 
 .me-info{
-    color: #ffff; 
+    color: #ffff;
+    text-align: right; 
+    
 }
- 
+
+.navbar-brand h1{
+    font: 500 2.2em Montaga;
+}
+
+.navbar-brand h3{
+    font: .75em 'Open Sans';
+} 
 
 /* 
-**Header section below 
+**  - Header section - 
 */
 
 header{
-    padding: calc(6rem + 106px);
+    padding-top: calc(6rem + 106px);
+    padding-bottom: 8.7rem;
     width: 100%;
-    height: 700px;
-    background: #6fb5bc;
+    background: #383a53;
 }
 
 
 /* To change the size of my icons */
 ion-icon {
     font-size: 115px;
+}
+
+header.masthead h1{
+    font: 4em Montaga;
+}
+
+hr{
+    border-top: solid 1px  #f3314b;
+	width: 30%;
+	margin-top: 15px;
+}
+
+header.masthead h2{
+    font: 1.75em Open Sans;
 }
 
 /* hr.star-light{
@@ -41,9 +66,59 @@ overflow: visible;
 
 
 /* 
-**Porfolio Section 
+**  - Porfolio Section - 
 */
 
 .my-portfolio{
     padding: 100px 0 100px 0;
+}
+
+
+/* 
+**  - Responsive Styleing - 
+*/
+
+@media screen and (max-width: 500px){
+    /** - Navigation bar - **/
+    .navbar-brand h1 {
+        font: 500 1.6em Montaga;
+    }
+
+    .navbar-brand h3 {    
+        font: .60em 'Open Sans';
+    }
+    /* In the two rules above, is there any way not to use the font-family again without breaking the rules and still use the shorthand */
+
+    /** - Header section - **/
+    .my-icons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ion-icon[name=tablet-landscape]{
+        order: 0;
+        font-size: 7em;
+        width: 100%
+    }
+
+    ion-icon[name=phone-portrait]{
+        order: 1;
+        font-size: 3em;
+    }
+
+    ion-icon[name=laptop]{
+        order: 2;
+        font-size: 3em;
+    }
+
+    header.masthead h1 {
+    font-size: 2.2em;
+    }
+
+    header.masthead h2 {
+    font-size: 1.1em;
+    }
+
+
+
 }
