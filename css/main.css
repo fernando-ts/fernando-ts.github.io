@@ -5,8 +5,7 @@
 
 .my-navbar{
     background: #292a46;
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 
 .me-info{
@@ -93,22 +92,28 @@ overflow: visible;
     .my-icons{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        border: 2px solid #f3314b; /*just for design purposes*/
+        padding: 0 0 15px;
     }
 
     ion-icon[name=tablet-landscape]{
         order: 0;
         font-size: 7em;
-        width: 100%
+        width: 100%;
+        margin-left: calc(100% - 64%);
     }
 
     ion-icon[name=phone-portrait]{
         order: 1;
         font-size: 3em;
+        padding: 0 .25em 0 0px;
     }
 
     ion-icon[name=laptop]{
         order: 2;
         font-size: 3em;
+        padding: 0px 0 0 .10em;
     }
 
     header.masthead h1 {
