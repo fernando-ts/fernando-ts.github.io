@@ -2,10 +2,18 @@
 /*
 ** - Navigation bar -
 */
-
 .my-navbar{
     background: #292a46;
     
+}
+
+.navbar-nav a{
+    color: #ffff;
+    font: 600 .95em Open Sans;
+}
+
+.navbar-nav a:hover {
+    color: #f3314b;
 }
 
 .me-info{
@@ -22,10 +30,10 @@
     font: .75em 'Open Sans';
 } 
 
+
 /* 
 **  - Header section - 
 */
-
 header{
     padding-top: calc(6rem + 106px);
     padding-bottom: 8.7rem;
@@ -33,8 +41,6 @@ header{
     background: #383a53;
 }
 
-
-/* To change the size of my icons */
 ion-icon {
     font-size: 115px;
 }
@@ -53,31 +59,133 @@ header.masthead h2{
     font: 1.75em Open Sans;
 }
 
-/* hr.star-light{
-margin: 25px auto 30px;
-padding: 0;
-max-width: 250px;
-border: 0;
-border-top: solid 5px;
-text-align: center;
-overflow: visible;
-} */
+
+/* 
+**  - Portfolio Section - 
+*/
+.my-portfolio{
+    padding: 100px 0 100px 0;
+}
+
+.my-portfolio h2{
+    color: #292a46 !important;
+    font: 500 2em Montaga;
+}
+
+.wrk-description h3{
+    font-family: Montaga;
+    color:#292a46;
+    text-align: center;
+    margin: 10px 0 0 0px;
+}
+
+.wrk-description p{
+    font-family: Open Sans;
+    color:#383a53;
+    text-align: center;
+}
 
 
 /* 
-**  - Porfolio Section - 
+**  - Footer Section - 
 */
+.footer{
+    background: #383a53;
+    color:#ffff;
+}
 
-.my-portfolio{
-    padding: 100px 0 100px 0;
+.ftr-titles{
+    font: 1.3em Montaga;
+    margin-top: 2.5em !important;
+}
+
+.btn-social {
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.30rem;
+    line-height: 2.3rem;
+}
+
+.lead {
+    font: 1.05em Open Sans;
+}
+
+.lead a{
+    font-weight: 600;
+    color: rgb(233, 221, 221);
+}
+
+.lead a:hover{
+    color: #f3314b;    
 }
 
 
 /* 
 **  - Responsive Styleing - 
 */
+@media screen and (max-width: 991px){
+    /** - Navigation bar - **/
+    .navbar-brand h1 {
+        font: 500 2em Montaga;
+        margin: 25px 0 3px 0px;
+    }
 
-@media screen and (max-width: 500px){
+    .navbar-brand h3 {    
+        font: .80em 'Open Sans';
+    }
+
+    /** - Header section - **/
+    ion-icon{
+        font-size: 5.9em;
+    }
+
+    ion-icon[name=laptop]{
+        margin-left: 4px;
+    }
+
+    header.masthead h1 {
+    font-size: 3.5em;
+    }
+
+    header.masthead h2 {
+    font-size: 1.8em;
+    margin-bottom: 35px !important;
+    }
+
+    /** - Portfolio Section - **/
+    .my-portfolio h2{
+        font-size: 1.85em;
+    }
+
+    .wrk-description {
+        padding: 12px;
+    }
+
+    .portfolio-item {
+        margin: 12px 0 75px 0;
+    }
+
+    .wrk-description h3{
+        font: 100 1.8em Montaga;
+        margin: 12px 0 0 0px;
+    }
+
+    .wrk-description p {
+        font-size: 1.1em;
+        margin: 3px 0 0 0;
+    }
+
+    /** - Footer Section - **/
+    .ftr-titles {
+        font: 1.2em Montaga;
+    }
+
+    .lead {
+        font-size: .95em;
+    }
+}
+
+@media screen and (max-width: 767px){
     /** - Navigation bar - **/
     .navbar-brand h1 {
         font: 500 1.6em Montaga;
@@ -86,7 +194,69 @@ overflow: visible;
     .navbar-brand h3 {    
         font: .60em 'Open Sans';
     }
-    /* In the two rules above, is there any way not to use the font-family again without breaking the rules and still use the shorthand */
+
+    /** - Header section - **/
+    ion-icon{
+        font-size: 5.2em;
+    }
+
+    ion-icon[name=laptop]{
+        margin-left: 3px;
+    }
+
+    header.masthead h1 {
+    font-size: 2.7em;
+    }
+
+    header.masthead h2 {
+    font-size: 1.3em;
+    }
+
+    /** - Portfolio Section - **/
+    .wrk-description {
+        padding: 8px;
+    }
+
+    .portfolio-item {
+        margin: 10px 0 70px 0;
+    }
+
+    .wrk-description h3{
+        font: 100 1.75em Montaga;
+    }
+
+    .wrk-description p {
+        font-size: 1em;
+    }
+
+    /** - Footer Section - **/
+    .ftr-titles {
+        font: 1.6em Montaga;
+    }
+    .frst-title{
+        margin-top: 3.5em !important;
+    }
+
+    .lead {
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    /** - Navigation bar - **/
+    .navbar-toggler {
+        margin: 7px 65px 0 7px;
+    }
+    .navbar-brand h1 {
+        font: 500 1.4em Montaga;
+        margin: 6px 0 4px 6px;
+    }
+
+    .navbar-brand h3 {    
+        font: .57em 'Open Sans';
+    }
+    /* In the rules above, is there any way not to use the font-family again without breaking the rules and still use the shorthand? */
 
     /** - Header section - **/
     .my-icons{
@@ -101,7 +271,7 @@ overflow: visible;
         order: 0;
         font-size: 7em;
         width: 100%;
-        margin-left: calc(100% - 64%);
+        margin-left: calc(100% - 190px);
     }
 
     ion-icon[name=phone-portrait]{
@@ -124,6 +294,36 @@ overflow: visible;
     font-size: 1.1em;
     }
 
+    /** - Portfolio Section - **/
+    .wrk-description {
+        padding: 5px;
+    }
+
+    .wrk-description h3{
+        font: 100 1.6em Montaga;
+    }
+
+    .wrk-description p {
+        font-size: .95em;
+    }
 
 
+    /** - Footer Section - **/
+    .ftr-titles {
+        font: 1.3em Montaga;
+    }
+
+    .frst-title{
+        margin-top: 3.5em !important;
+    }
+
+    .lead {
+        font-size: .95em;
+    }
 }
+
+
+/*  1 breakpoint around 500 px.  
+    2 breakpoint around 767px. 
+    3 breakpoint around 991px. 
+*/

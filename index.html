@@ -11,10 +11,13 @@
     <!--GoogleFonts  -->
     <link href="https://fonts.googleapis.com/css?family=Montaga" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <link rel="stylesheet"  media="screen" href="css/main.css" />
     <script src="main.js"></script>
 </head>
+
 <body>
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg  fixed-top text-uppercase my-navbar" id="mainNav">
@@ -63,40 +66,70 @@
         <div class="container">
             <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
             <hr class="star-dark mb-5">
-            <div class="row">
+            <div class="row wrk-description">
                 <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" href="https://fernando-ts.github.io/">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
+                    <a class="portfolio-item d-block mx-auto" target="_blank" href="https://fernando-ts.github.io/">
                         <img class="img-fluid" src="images/featured.JPG" alt="project one showcase">
+                        <h3>Responsive web page</h3>
+                        <p>Tower like web page: HTML, CSSS, BootStrap and JS</p>
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" href="http://output.jsbin.com/bogesoz/1">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
+                    <a class="portfolio-item d-block mx-auto" target="_blank" href="http://output.jsbin.com/bogesoz/1">
                         <img class="img-fluid" src="images/featured2.JPG" alt="project two showcase">
+                        <h3>Pixel Art Maker project</h3>
+                        <p>Draw something in a pixel way: HTML, CSS and JQuery for the DOM manipulation.</p>
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <a class="portfolio-item d-block mx-auto" href="https://codepen.io/fernando_torres/pen/KyONLo">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
+                    <a class="portfolio-item d-block mx-auto" target="_blank" href="https://codepen.io/fernando_torres/pen/KyONLo">
                         <img class="img-fluid" src="images/featured3.JPG" alt="project three showcase">
+                        <h3>Animal trading card project</h3>
+                        <p>HTML, CSSS for styling</p>
                     </a>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-2 mt-4 ftr-titles frst-title">Location</h4>
+                    <p class="lead mb-3">Oldenburg
+                        <br>Germany</p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-2 mt-4 ftr-titles">Me around the web</h4>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://github.com/fernando-ts">
+                                <i class="fab fa-fw fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://www.linkedin.com/in/fernando-ts/">
+                                <i class="fab fa-fw fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://codepen.io/fernando_torres/">
+                                <i class="fab fa-codepen"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-2 mt-4 ftr-titles">About my portfolio</h4>
+                    <p class="lead mb-3">This project was created with HTML, CSS and BOOTSTRAP. See it on my GitHub account under:
+                        <a href="https://github.com/fernando-ts/fernando-ts.github.io.git" target="_blank">MyPortfolioProject</a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
 
     <!-- jQuery-bootstrap -->
