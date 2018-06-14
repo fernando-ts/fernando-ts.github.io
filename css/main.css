@@ -8,8 +8,8 @@
 }
 
 .navbar-nav a{
-    color: #ffff;
-    font: 600 .95em Open Sans;
+    color: #fff;
+    font: 600 .95em 'Open Sans';
 }
 
 .navbar-nav a:hover {
@@ -17,7 +17,7 @@
 }
 
 .me-info{
-    color: #ffff;
+    color: #fff;
     text-align: right; 
     
 }
@@ -56,7 +56,7 @@ hr{
 }
 
 header.masthead h2{
-    font: 1.75em Open Sans;
+    font: 1.75em 'Open Sans';
 }
 
 
@@ -80,7 +80,7 @@ header.masthead h2{
 }
 
 .wrk-description p{
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     color:#383a53;
     text-align: center;
 }
@@ -91,7 +91,7 @@ header.masthead h2{
 */
 .footer{
     background: #383a53;
-    color:#ffff;
+    color:#fff;
 }
 
 .ftr-titles{
@@ -107,7 +107,7 @@ header.masthead h2{
 }
 
 .lead {
-    font: 1.05em Open Sans;
+    font: 1.05em 'Open Sans';
 }
 
 .lead a{
@@ -144,12 +144,12 @@ header.masthead h2{
     }
 
     header.masthead h1 {
-    font-size: 3.5em;
+        font-size: 3.5em;
     }
 
     header.masthead h2 {
-    font-size: 1.8em;
-    margin-bottom: 35px !important;
+        font-size: 1.8em;
+        margin-bottom: 35px !important;
     }
 
     /** - Portfolio Section - **/
@@ -205,11 +205,11 @@ header.masthead h2{
     }
 
     header.masthead h1 {
-    font-size: 2.7em;
+        font-size: 2.7em;
     }
 
     header.masthead h2 {
-    font-size: 1.3em;
+        font-size: 1.3em;
     }
 
     /** - Portfolio Section - **/
@@ -263,35 +263,35 @@ header.masthead h2{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        border: 2px solid #f3314b; /*just for design purposes*/
-        padding: 0 0 15px;
+        padding: 0 0 30px;
     }
 
     ion-icon[name=tablet-landscape]{
         order: 0;
-        font-size: 7em;
+        font-size: 7.1em;
         width: 100%;
-        margin-left: calc(100% - 190px);
+        display: flex;
+        justify-content: center;
     }
 
     ion-icon[name=phone-portrait]{
         order: 1;
-        font-size: 3em;
-        padding: 0 .25em 0 0px;
+        font-size: 3.1em;
+        padding: 0 .07em 0 0;
     }
 
     ion-icon[name=laptop]{
         order: 2;
-        font-size: 3em;
-        padding: 0px 0 0 .10em;
+        font-size: 3.05em;
+        padding: 0 0 0 .10em;
     }
 
     header.masthead h1 {
-    font-size: 2.2em;
+        font-size: 2.2em;
     }
 
     header.masthead h2 {
-    font-size: 1.1em;
+        font-size: 1.1em;
     }
 
     /** - Portfolio Section - **/
