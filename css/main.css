@@ -1,4 +1,3 @@
-
 /*
 ** - Navigation bar -
 */
@@ -256,7 +255,6 @@ header.masthead h2{
     .navbar-brand h3 {    
         font: .57em 'Open Sans';
     }
-    /* In the rules above, is there any way not to use the font-family again without breaking the rules and still use the shorthand? */
 
     /** - Header section - **/
     .my-icons{
