@@ -71,6 +71,16 @@ header.masthead h2{
     font: 500 2em Montaga;
 }
 
+.my-portfolio hr{
+    width: 12%
+}
+
+.wrk-description img{
+    padding:1px;
+    border-radius: 20px/10px ;
+    border:1px solid #d1d2e0;
+}
+
 .wrk-description h3{
     font-family: Montaga;
     color:#292a46;
